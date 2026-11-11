@@ -1,0 +1,6 @@
+build/
+*.o
+/run_tests
+/run_tests.exe
+__pycache__/
+developer_notes.txt

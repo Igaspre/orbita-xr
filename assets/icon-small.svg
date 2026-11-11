@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- icon.svg simplified for 32 px and below: no glow, thicker ring, a hard edge instead of the shadow -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22304a"/>
+      <stop offset="1" stop-color="#0a0e15"/>
+    </linearGradient>
+    <linearGradient id="ring" gradientUnits="userSpaceOnUse" x1="16" y1="0" x2="240" y2="0">
+      <stop offset="0" stop-color="#d4f86a"/>
+      <stop offset="0.55" stop-color="#5fe6a4"/>
+      <stop offset="1" stop-color="#22d6c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <g transform="rotate(-17 128 128)" fill="none" stroke="url(#ring)" stroke-width="24" stroke-linecap="round">
+    <path d="M16 128 A112 40 0 0 1 240 128" opacity="0.55"/>
+  </g>
+  <rect x="62" y="76" width="132" height="92" rx="14" fill="#ffffff"/>
+  <g transform="rotate(-17 128 128)" fill="none" stroke-linecap="round">
+    <path d="M16 128 A112 40 0 0 0 240 128" stroke="#0a0e15" stroke-width="40"/>
+    <path d="M16 128 A112 40 0 0 0 240 128" stroke="url(#ring)" stroke-width="24"/>
+  </g>
+</svg>
